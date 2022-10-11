@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+}
+body{
+	font :16px/28px arial,sans-serif;
+	background-image: url(image/background3.webp);
+}
+ul li {
+	display: inline-block;
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+	text-shadow:2px 2px black;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	text-shadow:2px 2px white;
+}
+a:hover{
+	color: yellow;
+	font-size: 22px;
+	text-shadow: 2px 2px 2px black;
+}
+ul{
+	border-bottom: 5px solid #052df5;
+	border-top: 5px solid #052df5;
+	padding: 10px;
+	background-image: url(image/bg2.webp);
+
+}
+.hobby{
+	text-decoration: underline;
+}
+
+.hero{
+	width: 100%;
+	height: 400px;
+	background-image: url(image/hero.jpg);
+	background-position: -50px -240px;
+	border-bottom: 5px solid #052df5;
+}
+.title{
+	color: white;
+	font-weight: normal;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 80px;
+	text-align: center;
+	padding: 186px;
+	text-shadow: 2px 2px 2px black;
+	margin: 0px;
+
+}
+.judul{
+	width: 100%;
+	text-align: center;
+	
+}
+.tjudul{
+	font-size: 40px;
+	font-weight: normal;
+	margin: 20px;
+	margin-top: 30px;
+	padding: 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px white;
+	background-color: rgba(0,0,0,0.1);
+	display: inline-block;
+	border: 3px solid black;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 29%;
+  margin: 20px;
+  display: inline-block;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 30%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+footer{
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: grey;
+        color: white;
+        padding: 5px;
+        text-align: center;
+}
+.search {
+		padding:8px 15px;
+		background:rgba(50, 50, 50, 0.2);
+		border:0px solid #dbdbdb;
+		border-radius: 5px;
+		margin: 0px;
+}
+.button {
+		position:relative;
+		padding:6px 15px;
+		margin: 0px;
+		margin-left: 5px;
+		left:-8px;
+		border:2px solid #53bd84;
+		background-color:#53bd84;
+		color:#fafafa;
+		border-radius: 5px;
+}

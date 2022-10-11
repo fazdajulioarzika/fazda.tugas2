@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+}
+body{
+	font :16px/28px arial,sans-serif;
+	background-image: url(image/background3.webp);
+}
+.navbar ul li {
+	display: inline-block;
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+	text-shadow:2px 2px black;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	text-shadow:2px 2px white;
+}
+.navbar ul li a:hover{
+	color: yellow;
+	font-size: 22px;
+	text-shadow: 2px 2px 2px black;
+}
+.navbar ul{
+	border-bottom: 5px solid #052df5;
+	border-top: 5px solid #052df5;
+	padding: 10px;
+	background-image: url(image/bg2.webp);
+
+}
+.navbar ul :nth-child(4){
+	text-decoration: underline;
+}
+.judul{
+	width: 100%;
+	text-align: center;
+}
+h1{
+	font-weight: normal;
+	background-color: rgba(255,255,255,0.5);
+	font-size: 40px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.4);
+	border-radius: 15px;
+	border: 2px solid black;
+	display: inline-block;
+}
+.list{
+	width: 100%;
+	text-align: center;
+}
+.list ul {
+	margin-bottom: 30px;
+	border: 2px solid black;
+	display: inline-block;
+	padding: 0px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.4);
+	background-color: rgba(255,255,255,0.5);
+}
+.list ul li{
+	border-top: 2px solid black;
+	padding: 10px;
+}
+.list ul :nth-child(1){
+	border-top: none;
+	border-top-right-radius: 14px;
+	border-top-left-radius: 14px;
+}
+.list ul li:hover{
+	background-color: rgba(144, 252, 225,0.5);
+}
+.list ul :nth-child(5){
+	border-bottom-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+h3{
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+footer{
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: grey;
+        color: white;
+        padding: 5px;
+        text-align: center;
+}
+.list ul li a{
+	text-decoration: none;
+	color: black;
+}
+.list ul li a:hover{
+	font-size: 17px;
+}
+.search {
+		padding:8px 15px;
+		background:rgba(50, 50, 50, 0.2);
+		border:0px solid #dbdbdb;
+		border-radius: 5px;
+		margin: 0px;
+}
+.button {
+		position:relative;
+		padding:6px 15px;
+		margin: 0px;
+		margin-left: 5px;
+		left:-8px;
+		border:2px solid #53bd84;
+		background-color:#53bd84;
+		color:#fafafa;
+		border-radius: 5px;
+}
